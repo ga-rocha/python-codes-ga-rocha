@@ -1,0 +1,14 @@
+nome = input('Digite o seu nome\n') 
+altura = input('Digite a sua altura\n')
+peso = input('Digite o seu peso\n')
+
+altura = float(altura)
+peso = int(peso)
+# print(type(alturaimc))
+# print(type(pesoimc))
+
+imc = (peso) / (altura * altura)
+
+imc = str(imc)
+
+print ('Seu IMC e:' + ' ' + imc)
