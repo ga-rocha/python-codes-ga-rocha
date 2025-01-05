@@ -11,4 +11,4 @@ imc = (peso) / (altura * altura)
 
 imc = str(imc)
 
-print ('Seu IMC e:' + ' ' + imc)
+print ('Seu IMC é:' + ' ' + imc)
